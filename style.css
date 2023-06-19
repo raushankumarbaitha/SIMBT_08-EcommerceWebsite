@@ -1,0 +1,314 @@
+/* 
+Mechanical Directly Timepiece
+*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Josefin Sans', sans-serif ;
+}
+:root{
+    --color:#2ecc71;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.icon i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.hero{
+    width: 100%;
+    height: 87vh;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hbox{
+    width: 500px;
+    margin-left: 200px;
+}
+.hbox h3{
+    color: #f9004b;
+    margin-bottom: 20px;
+}
+.hbox h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.hbox p{
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.hbox button{
+    width: 180px;
+    height: 55px;
+    background-color: #333333;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.hbox button:hover{
+    background-color: white;
+    color: black;
+}
+
+.seller{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.stext{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.stext p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.smain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sbox{
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+}
+.sbox img{
+    width: 100%;
+    height: 200px;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.text h3{
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+.text h3 span{
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.sbox::after{
+   content: "sale";
+   position: absolute;
+   top: 20px;
+   right: 15px;
+   padding: 5px 15px;
+   font-size: 15px;
+   text-transform: uppercase;
+   background-color: var(--color);
+   color: white;
+   border-radius: 25px;
+}
+
+.design{
+    width: 100%;
+    height: 500px;
+    background-image: url("images/Design.jpg");
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dbox{
+    width: 500px;
+    text-align: center;
+    margin-right: 100px;
+}
+.dbox h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.dbox p{
+    font-size: 18px;
+    color: white;
+    line-height: 25px;
+}
+.dbox h3{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.dbox h3 span{
+    color: #f9004b;
+    margin-left: 10px;
+}
+
+.trend{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+.ttext{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.ttext h1{
+    font-size: 40px;
+    color: #333333;
+}
+.ttext p{
+    font-size: 16px;
+    color: #333333;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.trendmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.trendbox{
+    width: 350px;
+}
+.trendbox img{
+    width: 100%;
+    height: 200px;
+}
+.trendbox h3{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #333333;
+    font-weight: 400;
+}
+.trendbox p{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+.trendbox a{
+    font-size: 18px;
+    color: black;
+}
+
+.more{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.morebox{
+    text-align: center;
+}
+.morebox h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.morebox p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.morebox button{
+    width: 180px;
+    height: 55px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: #202020;
+}
+.fmain{
+    width: 100%;
+    height: 150px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fbox input{
+    width: 300px;
+    height: 50px;
+    background: none;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 17px;
+}
+.fbox input::placeholder{
+    color: white;
+}
+.fbox button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+.social{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social i{
+    color: #69727d;
+    font-size: 25px;
+    cursor: pointer;
+}
